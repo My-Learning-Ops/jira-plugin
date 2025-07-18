@@ -1,4 +1,43 @@
 
+# Workflow file
+notes.txt
+
+# Maven build output
+/target/
+
+# IntelliJ IDEA files
+*.iml
+.idea/
+*.iws
+out/
+
+# Eclipse files
+.classpath
+.project
+.settings/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Atlassian SDK / Plugin build folders
+*.log
+*.bak
+*.swp
+*.tmp
+
+# Node / npm stuff if any
+node_modules/
+dist/
+
+# Other IDE/editor files
+.vscode/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Maven specific files
 target/
 pom.xml.tag
 pom.xml.releaseBackup
