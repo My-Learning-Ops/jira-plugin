@@ -1,0 +1,11 @@
+<html>
+<head>
+    <title>My Jira Plugin Template</title>
+</head>
+<body>
+    <h1>Welcome to My Jira Plugin</h1>
+    <p>This is a custom template for my Jira plugin.</p>
+    <p>For more information, visit the <a href="https://developer.atlassian.com/server/framework/atlassian-sdk/">Atlassian SDK documentation</a>.</p>
+
+</body>
+</html>
