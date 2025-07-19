@@ -8,9 +8,20 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
+import com.atlassian.templaterenderer.TemplateRenderer;
 
+/**
+ * A custom servlet for handling GET and POST requests in the Jira plugin
+ */
 public class MyServlet extends HttpServlet{
+
     private static final Logger log = LoggerFactory.getLogger(MyServlet.class);
+    private final TemplateRenderer templateRenderer;
+
+    @Inject
+    public MyServlet(TemplateRenderer templateRenderer) {
+        this.templateRenderer = templateRenderer;
+    }
 
     // Handles GET requests to the servlet
     @Override
