@@ -2,9 +2,13 @@
 
 This is a custom Jira plugin that provides additional functionality to enhance the Jira experience.
 
+---
 
 ## Features
 
+- Custom servlet endpoint to handle GET and POST requests  
+
+---
 
 ## Acknowledgements
 
