@@ -15,8 +15,14 @@ public class MyServlet extends HttpServlet{
     // Handles GET requests to the servlet
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        String name = req.getParameter("name");
+        if (name == null || name.isEmpty()) 
+            name = "World";
+
+        log.info("Received GET request with name: {}", name);
+
         resp.setContentType("text/html");
-        resp.getWriter().write("<html><body>Hello World</body></html>");
+        resp.getWriter().write("<html><body>Hello " + name + "</body></html>");
     }
 
     // Handles POST requests to the servlet
