@@ -3,6 +3,9 @@
 This is a custom Jira plugin that provides additional functionality to enhance the Jira experience.
 
 
+## Features
+
+
 ## Acknowledgements
 
 This plugin was developed using the Atlassian Plugin SDK and is based on Atlassian’s official development tools and tutorials.  
